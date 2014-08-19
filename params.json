@@ -1,0 +1,1 @@
+{"name":"Hechangmin.github.com","tagline":"blog","body":"<script>\r\n  var id = parseInt(location.search.substring(1))\r\n  location.replace(\r\n      'https://github.com/hechangmin/hechangmin.github.com/issues' +\r\n          (id ? '/' + id : '?labels=blog'))\r\n</script>","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
