@@ -1,6 +1,6 @@
 <script>
-  var id = parseInt(location.search.substring(1))
-  location.replace(
-      'https://github.com/hechangmin/hechangmin.github.com/issues' +
-          (id ? '/' + id : '?labels=blog'))
+    var id = parseInt(location.search.substring(1));
+    var targetUrl = 'https://github.com/hechangmin/hechangmin.github.com/issues' + (id ? '/' + id : '?labels=blog');
+    alert(id,targetUrl);
+    location.replace(targetUrl);
 </script>
