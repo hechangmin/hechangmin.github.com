@@ -44,6 +44,16 @@ keyframe-selectors: [ 'from' | 'to' | PERCENTAGE ] [ ',' [ 'from' | 'to' | PERCE
 }
 ```
 
+animation主要有以下几种：
+
+    animation-name;
+    animation-duration;
+    animation-timing-function;
+    animation-delay;
+    animation-iteration-count;
+    animation-direction;
+    animation-play-state.
+
 ##1、animation-name##
 
 语法：
