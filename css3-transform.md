@@ -2,6 +2,8 @@
 
 在CSS3中transform主要包括以下几种：旋转rotate、扭曲skew、缩放scale和移动translate以及矩阵变形matrix。
 
+IE9 及以上支持。
+
 transform在不同浏览器内核下的书写规则:
 
 ```css
